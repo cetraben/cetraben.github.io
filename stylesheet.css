@@ -1,0 +1,72 @@
+:root {
+    --primary-text: rgb(85, 85, 85);
+    --selected-text: rgb(65, 65, 65);
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: var(--primary-text);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: underline;
+    color: var(--selected-text);
+}
+
+.content {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.center {
+    margin: 10 auto;
+    min-width: 600px;
+}
+
+.banner img {
+    margin: 0 auto;
+    display: flex;
+}
+
+.title {
+    color: var(--primary-text);
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.title h1 {
+    font-size: 32px;
+    margin: 10px auto;
+}
+
+.double-panel {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#guild-info {
+    color: var(--primary-text);
+    font-size: 18px;
+    width: 100%;
+}
+
+#gallery {
+    width: 100%;
+}
