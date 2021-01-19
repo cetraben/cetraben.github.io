@@ -1,0 +1,23 @@
+:root {
+    --primary-text: rgb(65, 65, 65);
+    --selected-text: rgb(0, 0, 0);
+    --nav-text: rgb(85, 85, 85);
+    --title-text: rgb(45, 45, 45);
+}
+
+#tanks, #healers, #dps {
+    width: 33%;
+    display: inline-grid;
+    text-align: center;
+}
+
+.streamers a {
+    text-decoration: none !important;
+    color: var(--unselected-text);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.streamers a:hover {
+    color: var(--selected-text) !important;
+}

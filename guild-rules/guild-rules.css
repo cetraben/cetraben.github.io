@@ -1,0 +1,21 @@
+.guild-rules h2 {
+    font-weight: bold;
+    font-size: 26px;
+    margin: 40px 0 20px 0;
+}
+
+.rules-intro {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.guild-rules h3 {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.guild-rules h1 {
+    text-align: center;
+    margin: 70px 0 30px 0;
+}
