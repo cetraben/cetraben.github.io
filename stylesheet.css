@@ -1,31 +1,55 @@
 :root {
-    --primary-text: rgb(85, 85, 85);
-    --selected-text: rgb(65, 65, 65);
+    --primary-text: rgb(65, 65, 65);
+    --selected-text: rgb(0, 0, 0);
+    --unselected-text: rgb(105, 105, 105);
+    --nav-text: rgb(105, 105, 105);
+    --title-text: rgb(45, 45, 45);
+}
+
+@font-face {
+    font-family: 'Morpheus';
+    src: url('assets/fonts/MORPHEUS.ttf');
 }
 
 body {
     background-color: rgb(235, 235, 235);
     width: 100%;
+    font-size: 16px;
+    font-family: 'Morpheus';
+}
+
+body p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-text);
 }
 
 hr {
     border: 1px solid white;
 }
 
+.main-nav {
+    margin: 30px 0 20px 15%;
+    padding: 10px 0 10px 0;
+}
+
 .main-nav ul li {
     display: inline;
+    margin: 0 5px;
 }
 
 .main-nav ul li a {
     text-decoration: none;
-    color: var(--primary-text);
+    color: var(--nav-text);
     font-weight: bold;
     font-style: normal;
 }
 
 .main-nav ul li a:hover {
-    text-decoration: underline;
-    color: var(--selected-text);
+    color: var(--selected-text) !important;
+}
+
+.nav-selected a {
+    color: var(--selected-text) !important;
 }
 
 .content {
@@ -41,6 +65,8 @@ hr {
 .banner img {
     margin: 0 auto;
     display: flex;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .title {
@@ -53,20 +79,27 @@ hr {
 .title h1 {
     font-size: 32px;
     margin: 10px auto;
+    font-family: 'Morpheus';
+    color: var(--title-text);
 }
 
 .double-panel {
     width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
 }
 
 #guild-info {
     color: var(--primary-text);
     font-size: 18px;
-    width: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+#guild-info p {
+    margin: 0 25px 15px auto; 
 }
 
 #gallery {
-    width: 100%;
+    width: 50%;
 }
