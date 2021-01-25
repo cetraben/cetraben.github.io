@@ -20,4 +20,5 @@
 
 .streamers a:hover {
     color: var(--selected-text) !important;
+    font-weight: bold;
 }

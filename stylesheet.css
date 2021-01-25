@@ -13,7 +13,7 @@
 
 body {
     background-color: rgb(235, 235, 235);
-    width: 100%;
+    width: 99%;
     font-size: 16px;
     font-family: 'Morpheus';
 }
@@ -97,10 +97,46 @@ hr {
     text-align: center;
 }
 
+#guild-info-text {
+    width: 75%;
+    margin: auto auto;
+}
+
 #guild-info p {
     margin: 0 25px 15px auto; 
 }
 
 #gallery {
     width: 50%;
+}
+
+#apply-btn {
+    margin-top: 50px;
+    background-color:#ffffff;
+	border-radius:8px;
+	border:2px solid #7e3541;
+	display:inline-block;
+	cursor:pointer;
+    color: #be364d;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 32px;
+	text-decoration:none;
+    text-shadow: 0px 1px 1px #913545;
+    position:relative;
+    top:1px;
+}
+
+#apply-btn:hover {
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #a0a0a0;
+    background-color: #7e3541;
+}
+
+#apply-btn:active {
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #575757;
+    background-color: #6e2b36;
+    border-color: #000000;
 }
