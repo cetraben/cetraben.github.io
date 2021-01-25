@@ -94,12 +94,13 @@ hr {
     color: var(--primary-text);
     font-size: 18px;
     width: 50%;
+    height: 100%;
     text-align: center;
 }
 
 #guild-info-text {
     width: 75%;
-    margin: auto auto;
+    margin: 25% auto;
 }
 
 #guild-info p {
